@@ -4,9 +4,9 @@
 @charset "utf-8";
 
 
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
+@import "../_sass/scss/functions";
+@import "../_sass/scss/variables";
+@import "../_sass/scss/mixins";
 
 // Brand Colors
 $blue: #2b807d;
@@ -551,14 +551,14 @@ $enable-grid-classes: true;
 $enable-print-styles: true;
 
 
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
-@import "../node_modules/bootstrap/scss/images";
-@import "../node_modules/bootstrap/scss/code";
-@import "../node_modules/bootstrap/scss/grid";
-@import "../node_modules/bootstrap/scss/code";
-@import "../node_modules/bootstrap/scss/badge";
-@import "../node_modules/bootstrap/scss/tables";
+@import "../_sass/scss/reboot";
+@import "../_sass/scss/type";
+@import "../_sass/scss/images";
+@import "../_sass/scss/code";
+@import "../_sass/scss/grid";
+@import "../_sass/scss/code";
+@import "../_sass/scss/badge";
+@import "../_sass/scss/tables";
 
 body {
     padding-top: 1.5rem;
