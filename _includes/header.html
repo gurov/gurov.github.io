@@ -1,0 +1,20 @@
+<header class="site-header">
+
+  <div class="container">
+    <h1>
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </h1>
+
+    <ul class="navbar-list" style="display: none">
+      <li class="navbar-item">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="navbar-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </li>
+    </ul>
+
+  </div>
+
+</header>
