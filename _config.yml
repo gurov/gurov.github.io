@@ -20,3 +20,8 @@ github_username:  gurov
 markdown: kramdown
 
 JEKYLL_ENV: production
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
