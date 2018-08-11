@@ -19,4 +19,18 @@ layout: default
     {% endfor %}
   </div>
 
+  <div class="d-flex justify-content-between mt-5">
+    {% if page.previous %}
+    <a title="{{ page.previous.title }}" href="{{ page.previous.url | prepend: site.baseurl }}">
+      « предыдущий пост
+    </a>
+    {% endif %}
+    <span></span>
+    {% if page.next %}
+    <a title="{{ page.next.title }}" href="{{ page.next.url | prepend: site.baseurl }}">
+      следующий пост »
+    </a>
+    {% endif %}
+  </div>
+
 </article>
