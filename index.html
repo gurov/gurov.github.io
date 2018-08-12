@@ -5,16 +5,17 @@ layout: default
 <div class="container">
 
   <h2 class="page-heading">
+    
     Записки о разном
     <a class="badge badge-warning" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
   </h2>
 
   <dl class="row mb-2">
       {% for post in site.posts %}
-      <dt class="col-md-2 mb-2">
+      <dt class="col-md-2">
         <code class="small">{{ post.date | date: "%Y-%m-%d" }}</code>
       </dt>
-     <dd class="col-md-10 mb-2">
+     <dd class="col-md-10 mb-3">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
      </dd>
      {% endfor %}
