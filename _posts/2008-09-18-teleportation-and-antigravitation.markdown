@@ -2,7 +2,7 @@
 layout: post
 title:  "Телепортация и антигравитация"
 date:   2008-09-18 12:30:00 +0700
-categories: рассказ
+categories: note
 tags: телепортация антигравитация
 author: Гуров Павел
 ---

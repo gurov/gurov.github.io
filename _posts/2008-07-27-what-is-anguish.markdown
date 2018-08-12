@@ -2,7 +2,7 @@
 layout: post
 title:  "Что есть тоска?"
 date:   2008-07-27 12:30:00 +0700
-categories: рассказ
+categories: note
 tags: тоска размышления
 author: Гуров Павел
 ---

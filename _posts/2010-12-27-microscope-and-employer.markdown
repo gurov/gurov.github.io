@@ -2,7 +2,7 @@
 layout: post
 title:  Mикроскоп и работодатель
 date:   2010-12-27 12:30:00 +0700
-categories: рассказ
+categories: note
 tags: микроскоп интегралы
 author: Гуров Павел
 ---

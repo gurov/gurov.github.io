@@ -2,7 +2,7 @@
 layout: post
 title:  "Про гороскопы"
 date:   2008-09-28 12:30:00 +0700
-categories: рассказ
+categories: note
 tags: гороскоп размышления
 author: Гуров Павел
 ---

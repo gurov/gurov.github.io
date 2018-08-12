@@ -2,7 +2,7 @@
 layout: post
 title:  "Возвращение в мёртвое будущее"
 date:   2008-07-07 12:30:00 +0700
-categories: рассказ
+categories: note
 tags: будущее фантастика рассказ
 author: Гуров Павел
 ---
