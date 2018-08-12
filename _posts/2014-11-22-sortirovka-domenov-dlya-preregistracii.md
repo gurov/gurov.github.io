@@ -2,7 +2,7 @@
 layout: post
 title: Сортировка доменов для пререгистрации
 date: 2014-11-22 22:50:00 +0700
-categories: рассказ
+categories: article
 tags: openprovider домены пререгистрации сортировка ui/ux
 author: Гуров Павел
 ---

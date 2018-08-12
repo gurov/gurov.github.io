@@ -2,7 +2,7 @@
 layout: post
 title:  Ограничение выбора вариантов 
 date:   2014-11-22 22:37:00 +0700
-categories: рассказ
+categories: article
 tags: .cat openprovider ui/ux интерфейсы
 author: Гуров Павел
 ---
