@@ -18,6 +18,7 @@ github_username:  gurov
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
 JEKYLL_ENV: production
 defaults:

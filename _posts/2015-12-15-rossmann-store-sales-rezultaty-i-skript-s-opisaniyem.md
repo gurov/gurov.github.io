@@ -13,7 +13,7 @@ author: Гуров Павел
 
 Чтобы некоторые знания все же не потерялись, я решил выложить скрипт, который который обеспечил мне 1468 место из 3423. В 50% я попал :)
 
-``` python
+```python
 import pandas as pd
 import numpy as np
 from pandas import Series, DataFrame
@@ -173,6 +173,7 @@ assert(test2.Sales.isnull().sum() == 0)
 test[[ 'Id', 'Sales' ]].to_csv(output_file, index = False)
 
 print("Up the leaderboard!")
-``` 
+```
+
 
 *Перенёс сюда из [жж](https://gurovpavel.livejournal.com/2400.html)*
