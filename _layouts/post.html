@@ -8,7 +8,7 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
   </header>
 
-  <div class="tag-block mb-2">
+  <div class="tag-block mb-3">
     Теги: {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
       <i>{{ tag_name }} </i>
