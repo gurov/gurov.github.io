@@ -6,7 +6,7 @@ layout: default
 
   <h2 class="page-heading">
     Записки о разном
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+    <a class="badge badge-warning" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
   </h2>
 
   <ul class="post-list">
@@ -16,7 +16,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
