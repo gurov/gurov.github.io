@@ -20,7 +20,14 @@
 @import "../_sass/scss/tables";
 @import "../_sass/scss/bootstrap-grid";
 @import "../_sass/scss/utilities/spacing";
+@import "../_sass/scss/utilities/text";
 
 body {
     padding-top: 1.5rem;
+}
+
+.tag-block {
+    color: #777777;
+    font-size: 90%;
+    margin-top: -0.75rem;
 }

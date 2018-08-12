@@ -8,15 +8,15 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-  <div>
+  <div class="tag-block mb-2">
     Теги: {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
-      <i class="badge badge-light">{{ tag_name }} </i>
+      <i>{{ tag_name }} </i>
     {% endfor %}
+  </div>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
   </div>
 
   <div class="d-flex justify-content-between mt-5">
