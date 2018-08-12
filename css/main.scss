@@ -31,3 +31,10 @@ body {
     font-size: 90%;
     margin-top: -0.5rem;
 }
+
+.out-link::after {
+    content: " ⇗";
+    color: cornflowerblue;
+    font-size: 0.7rem;
+    vertical-align: top;
+}
