@@ -33,9 +33,10 @@ body {
 }
 
 .out-link::after {
-    content: " ⇗";
+    content: "⇗";
     color: cornflowerblue;
-    font-size: 0.7rem;
+    padding-left: 0.1rem;
+    font-size: 0.6rem;
     vertical-align: top;
 }
 .brand-image {
