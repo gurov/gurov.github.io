@@ -1,1 +1,6 @@
-# gurov.github.io-source
+# gurov.github.io
+
+[gurov.github.io](https://gurov.github.io/)
+
+Проекты, публикации и разные записки Гурова Павла, программиста, который не пишет магического кода.
+
